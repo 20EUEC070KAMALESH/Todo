@@ -1,0 +1,112 @@
+.todo-container {
+    max-width: 100%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .todo-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-input input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .todo-filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-filters button {
+    padding: 6px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .active-filter {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-list li.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  .edit-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  .todo-actions button,
+  .todo-actions input[type="datetime-local"] {
+    margin-left: 10px;
+  }
+  
+  .todo-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-info span {
+    margin-right: 10px;
+  }
+  
+  .overdue {
+    color: #ff0000; /* Red color for overdue tasks */
+  }
+  
